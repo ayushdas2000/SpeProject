@@ -1,4 +1,4 @@
 FROM openjdk
-COPY ./target/SpeProject-1.0-SNAPSHOT.jar ./
+COPY ./target/calculator-1.0-SNAPSHOT.jar ./
 WORKDIR ./
-CMD ["java", "-jar", "SpeProject-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "calculator-1.0-SNAPSHOT.jar"]
