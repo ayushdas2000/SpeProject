@@ -1,10 +1,10 @@
-import calculator.calculator;
+import calculator.Calculator;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class CalculatorTest {
     private static final double DELTA = 1e-15;
-    calculator calculator = new calculator();
+    Calculator calculator = new Calculator();
 
     @Test
     public void factorialTruePositive(){

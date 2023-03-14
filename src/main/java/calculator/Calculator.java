@@ -7,15 +7,15 @@ import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-public class calculator {
+public class Calculator {
 
-    private static final Logger logger = LogManager.getLogger(calculator.class);
-    public calculator() {
+    private static final Logger logger = LogManager.getLogger(Calculator.class);
+    public Calculator() {
     }
 
     public static void main(String[] args) {
         BasicConfigurator.configure();
-        calculator calculator = new calculator();
+        Calculator calculator = new Calculator();
         Scanner scanner = new Scanner(System.in);
         double number1, number2;
         do {
